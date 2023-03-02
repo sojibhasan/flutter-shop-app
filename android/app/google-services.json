@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "866220224339",
+    "project_id": "d-color-73450",
+    "storage_bucket": "d-color-73450.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866220224339:android:f225677a463963be8dfba6",
+        "android_client_info": {
+          "package_name": "hamza.three_d_color"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866220224339-07l24400pluenllrbuudglh7i3m9odvj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hamza.three_d_color",
+            "certificate_hash": "519f0ae59246da1effb1bbb003e9eb1cd54f7bdf"
+          }
+        },
+        {
+          "client_id": "866220224339-k68o659228vvmlpqp1lknaslb6sidd8c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hamza.three_d_color",
+            "certificate_hash": "7b64cc6e630119010d3c2b23f0e705bfecf89e57"
+          }
+        },
+        {
+          "client_id": "866220224339-r1i9rcpvgk9t226ggi0nqeviioi1j6kb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hamza.three_d_color",
+            "certificate_hash": "962daba3c409b545f7be5b47e864255000755bd4"
+          }
+        },
+        {
+          "client_id": "866220224339-1cultbe09gud6vdc254olprdpn7381gq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgHIiRjrQ4UxCf8j9TFi6Tc5WfSf_37HU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866220224339-1cultbe09gud6vdc254olprdpn7381gq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

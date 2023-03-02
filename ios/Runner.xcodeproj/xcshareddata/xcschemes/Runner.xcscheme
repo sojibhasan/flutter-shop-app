@@ -1,0 +1,114 @@
+import 'package:dio/dio.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'dart:async';
+import 'package:webview_windows/webview_windows.dart';
+import 'dart:ffi';
+final navigatorKey = GlobalKey<NavigatorState>();
+
+void main() async{
+
+  runApp(MyApp());
+}
+
+class MyApp extends StatefulWidget {
+  @override
+  _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+
+
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      navigatorKey: navigatorKey,
+      home: Scaffold(
+        body: const Home2(),
+      ),
+    );
+  }
+}
+
+class Home2 extends StatelessWidget {
+  const Home2({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: const Home3(),
+    );
+  }
+}
+
+class Home3 extends StatefulWidget {
+  const Home3({Key? key}) : super(key: key);
+
+  @override
+  _Home3State createState() => _Home3State();
+}
+
+class _Home3State extends State<Home3> {
+  final _controller = WebviewController();
+  String text = '';
+  bool shiftEnabled = false;
+  final _textController = TextEditingController(text: 'https://ecstatic-shirley-f71606.netlify.app/#/');
+  bool _isWebviewSuspended = false;
+  late Response response;
+  // KeyboardController controller =
+  // KeyboardController(client: const InputClient(connectionId: 1,configuration: TextInputConfiguration())) ;
+  var dio = Dio();
+  @override
+  void initState() {
+    super.initState();
+    initPlatformState();
+  }
+  DynamicLibrary loadLibrary() {
+    return DynamicLibrary.open('path/to/my/library.extension'); // extension would be .so for linux, .dll for windows and so on
+  }
+
+  Function executeMyFunction() {
+    final lib = loadLibrary();
+    final myFunction = lib.lookup<NativeFunction>('myExportedFunction').asFunction();
+
+    myFunction();
+    return null;
+  }
+  Future<void> initPlatformState() async {
+    // Directory? tempDir = await getDownloadsDirectory();
+    // if(tempDir!=null){
+    //   print(tempDir.path);
+    // }else{
+    //   print('nooooooooo');
+    // }
+    // response = await dio.download('https://www.mediafire.com/file/sbvfygd9y9ca7rh/lib.zip/file',
+    //     'C:\\Users\\DOS\\Desktop\\hamza\\hamzaTestMoaz.zip',
+    // onReceiveProgress: (a,b){
+    //   print([a,b,'download']);
+    // }
+    // );
+    // Process.run('ls', ['-l']).then((ProcessResult results) {
+    //   print(results.stdout);
+    // });
+    // Optionally initialize the webview environment using
+    // a custom user data directory and/or custom chromium command line flags
+    //await WebviewController.initializeEnvironment(
+    //    additionalArguments: '--show-fps-counter');
+
+    await _controller.initialize();
+    _controller.url.listen((url) {
+      _textController.text = url;
+    });
+
+    await _controller.setBackgroundColor(Colors.transparent);
+    await _controller.loadUrl('https://ecstatic-shirley-f71606.netlify.app/#/');
+
+    if (!mounted) return;
+
+    setState(() {});
+  }
+  Future<WebviewPermissionDecision> _onPermissionRequested(
+      String url, WebviewPermissionKind kind, bool isUserInitiated) async {
+    // final decision = await showDialog<WebviewPermissionDecision>(
+    //   context: navigatorKey.currentContext!,

@@ -1,0 +1,17 @@
+A- dbHelper
+الفايل المسوول عن الداتا بيز الداخلية (السلة)
+File controll sqflite (local database) (cart)
+
+B- Helper Fun
+فايل يحتوي على بعض الفانكشن المساعدة لعدم التكرار
+Helper function
+
+C- Main
+الصفحة التشغيلية للبرنامج
+main page
+
+D- splach
+الاسبلاش سكرين ويتم فيها استدعاء اللغة المخزنة بعض القيم المهمه واستدعاء البيانات اللتي تظهر في الصفحة الرئيسية
+و الدول و المفضلة
+splach 
+when start call vars in sharedprefrenses and call some apis

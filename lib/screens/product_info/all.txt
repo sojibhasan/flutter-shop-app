@@ -1,0 +1,17 @@
+A- image
+صفحة تظهر الصورة بشكل اوضح من صور المنتج
+all products image in full screen
+B- product
+تقسم الى خمس اقسام
+1- تفاصيل المنتج
+product info
+2- صور المنتج
+products image
+3- بعض خصائص المنتج
+some features of products
+4- تقييم المنتج
+rateing page
+5- استفسار عن المنتج
+ask about the products
+
+

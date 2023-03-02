@@ -1,0 +1,232 @@
+{
+  "language": {
+    "change_language" : "Ganti Bahasa",
+    "language" : "Bahasa"
+  },
+  "home" : {
+    "home" : "Rumah",
+    "new" : "Baru",
+    "best" : "Terbaik",
+    "recommendation" : "Rekomendasi",
+    "offers" : "Penawaran",
+    "title1" : "Penawaran segera berakhir",
+    "title2" : "Produk Baru",
+    "title3" : "Produk Terbaik",
+    "title4" : "Produk yang direkomendasikan",
+    "title5" : "Diskon Terbaik",
+    "title6" : "Harga terbaik",
+    "title7" : "Paling suka",
+    "title8" : "Nilai Tertinggi",
+    "contact" : "Kontak informasi",
+    "sort" : "Menyortir"
+  },
+  "page_four" : {
+    "title" : "Mencari",
+    "sub_title" : "Kategori"
+  },
+  "page_three" : {
+    "title" : "Kategori",
+    "sub_title" : "Kategori"
+  },
+  "page_two" : {
+    "title" : "Favorit",
+    "sort" : "Menyortir"
+  },
+  "page_five" : {
+    "title" : "Profil",
+    "change_pass" : "Ganti kata sandi",
+    "address" : "Alamat saya",
+    "orders" : "Pesananku",
+    "countries" : "Negara",
+    "about" : "Tentang kami",
+    "privacy" : "Kebijakan & pribadi",
+    "terms" : "Ketentuan & Kondisi",
+    "delivery" : "Informasi Pengiriman",
+    "info" : "Informasi",
+    "questions" : "Pertanyaan",
+    "contacts" : "Hubungi kami",
+    "how" : "Cara Penggunaan",
+    "register1" : "Daftar keanggotaan",
+    "register2" : "Dapatkan berbagai keuntungan",
+    "notification" : "Izin Pemberitahuan"
+  },
+  "sms" : {
+    "title" : "Kode aktivasi terkirim",
+    "hint" : "Kode aktivasi",
+    "in" : "Kode salah",
+    "re" : "Kirim ulang kode   ",
+    "wait" : "Tunggu sebentar lalu coba lagi nanti"
+  },
+  "multiple" : {
+    "title" : "Kategori",
+    "tab1" : "Rekomendasi",
+    "tab2" : "Baru",
+    "tab3" : "Terbaik",
+    "sort" : "Menyortir"
+  },
+  "profile": {
+    "title": "Profil"
+  },
+  "address_info" : {
+    "title" : "Tambahkan alamat"
+  },
+  "empty" : {
+    "no_products" : "Belum ada produk",
+    "no_favorite" : "Belum ada item favorit",
+    "no_address" : "Tidak ada lokasi",
+    "no_order" : "Tidak ada pesanan",
+    "no_details" : "Tidak ada detail",
+    "no_student" : "Belum ada siswa",
+    "no_rate" : "Belum ada penilaian",
+    "empty" : "Kosong !",
+    "empty_cart" : "Keranjang kosong!"
+  },
+  "change_pass" : {
+    "title" : "Ganti kata sandi"
+  },
+  "validation" : {
+    "confirm_pass" : "Kata sandi tidak cocok",
+    "old_pass" : "Masukkan kata sandi lama",
+    "new_pass" : "Masukan kata sandi baru",
+    "valid_email" : "Masuk kan email yang benar",
+    "terms" : "   Harus menerima Syarat dan Ketentuan",
+    "date" : "Pilih tanggalnya",
+    "field" : "Masukkan bidang ini",
+    "area" : "Pilih daerah",
+    "pass" : "Panjang kata sandi harus minimal 6 karakter",
+    "phone" : "Masukkan telepon yang valid"
+  },
+  "order": {
+    "title": "Pesananku"
+  },
+  "cart": {
+    "address" : "Pilih alamat",
+    "price" : "Harga",
+    "total" : "Total",
+    "delivery" : "Pengiriman",
+    "discount" : "Diskon",
+    "add" : "Tambahkan kupon",
+    "visit" : "Kunjungi toko",
+    "coupon" : "Kupon",
+    "error" : "Ada yang salah coba lagi",
+    "delete" : "Hapus semua",
+    "all" : "Semua produk"
+  },
+  "country" : {
+    "title" : "negara",
+    "choose" : "Pilih negara"
+  },
+  "snack_bar": {
+    "undo" : "Membuka",
+    "login" : "Harus Masuk",
+    "area" : "Harus Memperbarui Area",
+    "area_button" : "Memperbarui",
+    "phone" : "Telepon salah",
+    "try" : "Coba lagi nanti"
+  },
+  "inputs" : {
+    "phone" : "Telepon",
+    "email" : "Surel",
+    "day" : "Tanggal lahir",
+    "coupon" : "Kupon",
+    "name" : "Nama lengkap",
+    "pass" : "Kata sandi",
+    "comment" : "Komentar (opsional)",
+    "old_pass" : "Password lama",
+    "new_pass" : "Kata sandi baru",
+    "confirm_pass" : "konfirmasi sandi",
+    "find_product" : "Temukan Produk",
+    "search_location" : "Cari Lokasi",
+    "area" : "Pilih Area",
+    "add_address_title" : "Add address title"
+  },
+  "add_address" : {
+    "here" : "Alamat pengiriman",
+    "location" : "Lokasi"
+  },
+  "address" : {
+    "title" : "Alamat"
+  },
+  "area" : {
+    "title" : "Pilih Area"
+  },
+  "choose_address": {
+    "title" : "Pilih Alamat"
+  },
+  "student" : {
+    "title" : "Bagian Mahasiswa",
+    "all" : "Lihat semua",
+    "sort" : "Menyortir",
+    "famous" : "Siswa terkenal"
+  },
+  "buttons" : {
+    "next" : "Lanjut",
+    "send" : "Mengirim",
+    "back" : "Kembali",
+    "add_product" : "Tambahkan Produk",
+    "save" : "Menyimpan",
+    "check_out" : "Periksa",
+    "save_location" : "Simpan Lokasi",
+    "login" : "Gabung",
+    "register" : "Daftar",
+    "open" : "Membuka",
+    "add_cart" : "Masukkan ke keranjang",
+    "log_out" : "Keluar",
+    "log_in" : "Gabung",
+    "add_address" : "Tambahkan alamat baru",
+    "change" : "Mengubah",
+    "cont" : "Melanjutkan",
+    "delete_address" : "Hapus alamat"
+  },
+  "reset_pass": {
+    "title" : "Setel Ulang Kata Sandi",
+    "sub_title1" : "Masukkan ponsel Anda untuk dikirim",
+    "sub_title2" : "Kode aktivasi",
+    "sub_title3" : "kata sandi baru"
+  },
+  "fire_base": {
+    "error1" : "Gagal mengirim sms, harap tunggu lalu coba lagi",
+    "error2" : "Kode verifikasi salah"
+  },
+  "login" : {
+    "title" : "Daftar keanggotaan\n     Dapatkan berbagai keuntungan",
+    "guest" : "Jelajahi sebagai pengunjung",
+    "sub" : "Langganan siswa",
+    "reset" : "Lupa kata sandi ?",
+    "have_not" : "Tidak punya akun ? ",
+    "have" : "Punya akun ? ",
+    "login" : "Gabung",
+    "error" : "Email atau kata sandi tidak benar",
+    "register" : "Mendaftar"
+  },
+  "sub": {
+    "title" : "Permintaan Berlangganan"
+  },
+  "product": {
+    "tab1": "Produk",
+    "tab2": "Gambar",
+    "tab3": "Fitur",
+    "tab4": "Komentar",
+    "tab5": "Membantu",
+    "sign_up": "Daftar Untuk mendapatkan diskon",
+    "about": "Tentang Merek",
+    "cat": "Kategori",
+    "des": "Keterangan",
+    "why": "MENGAPA",
+    "price": "Harga"
+  },
+  "register" : {
+    "title": "Daftar sekarang",
+    "agree": "Saya setuju dengan ",
+    "terms": "Syarat dan ketentuan"
+  },
+  "contac_us": {
+    "success" : "Permintaan terkirim"
+  },
+  "alert": {
+    "success" : "Kesuksesan",
+    "operation" : "Operasi yang berhasil",
+    "try" : "Coba lagi nanti",
+    "failed" : "Gagal"
+  }
+}

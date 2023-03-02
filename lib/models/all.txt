@@ -1,0 +1,13 @@
+يحتوي على كل الكلاسات المستخدمة في التطبيق + جميع الفانكشن المسولة عن استدعاء البانات
+ومحدد باسم الفايل
+مثلا فايل country.dart
+مسول عن كلاس الدول و المناطق واستدعاء بياناتهم و الاحتفاظ بمعوماتهم والدولة المختارة الخ...
+
+
+This folder containes all classes used in the app
++ some function call data 
+
+like country.dart
+inside it have classes for country and areas 
++ call data from api
++ save data

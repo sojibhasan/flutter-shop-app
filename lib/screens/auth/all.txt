@@ -1,0 +1,18 @@
+A- confirm phone
+التاكد من وجود الهاتف في السرفر ثم ارسال رساله للتاكد من الرقم
+Check for phone in serve then send sms for make sure
+B- country
+ديزاين لاظهار الدول ثم اختيار واحدة ويحدد عليها بيانات الرقم
+Ui for choose country and get some informations like country number lenght , code.
+C- Logon
+الصفحة مسوولة عن تسجيل الدخول و جميع ازار التسجيل
+Login page
+D- reset pass
+بعد التاكد من الرقم يتم ادخال كلمة المرور الجديدة للمستخدم
+After check for phone enter new pass
+E- sign up
+تسجيل مستخدم جديد والتحقق من رقم هاتفه
+check for phone then make new user
+F- sub
+ديزاين لصفحة اشتراك الطلاب
+ui for student sub

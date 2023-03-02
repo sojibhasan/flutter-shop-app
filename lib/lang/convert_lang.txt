@@ -1,0 +1,5 @@
+الفولدر مسوول عن استدعاء الترجمة الموجودة في المسار الاتي
+assets/languages/ar.json or id.json
+ثم تغيير الترجمة في كل انحاء التطبيق
+
+the folder controll change of language
